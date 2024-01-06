@@ -41,6 +41,9 @@ body {
     --cardWidth: 300px;
   }
 }
+html{
+  scroll-behavior: smooth;
+}
 /* @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
