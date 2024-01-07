@@ -41,7 +41,7 @@ body {
     --cardWidth: 300px;
   }
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 /* @media (min-width: 1400px) {
@@ -83,7 +83,11 @@ i {
   transform: translatey(-35%);
   color: #ebeced;
 }
-
+@media (max-width: 465px) {
+  .specialHeader > div {
+    font-size: 80px;
+  }
+}
 /* header start  */
 header {
   display: flex;
@@ -386,6 +390,8 @@ header .links > ul > li:hover > a {
   font-size: 35px;
   font-weight: 800;
   color: var(--mainColor);
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .contactContent > .social {
   margin-top: 20px;
